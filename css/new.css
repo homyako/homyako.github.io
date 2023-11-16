@@ -44,13 +44,13 @@ html,body{
     padding: 0;
     margin: 0;
 }
-#my_pic{
+#kryg{
     padding: 6.3%;
     width: 31.85%;
     height: auto;
     min-height: 0.5vw;
 }
-.me_name{
+.name{
     position: absolute;
     color: black;
 	font-size: 2.96vw;
@@ -58,7 +58,7 @@ html,body{
     left: 46.11%;
     top: 15.5%;
 }
-.groupe{
+.colledg{
     position: absolute;
     color: black;
 	font-size: 2.22vw;
@@ -72,7 +72,7 @@ a{
     color: black;
 }
 
-.my_hs{
+.hards{
     position: absolute;
     color: black;
     font-size: 2.96vw;
@@ -80,7 +80,7 @@ a{
     left: 30%;
     top: 2.96%;
 }
-.hs_block{
+.hardsk{
     position: absolute;
     color: black;
     font-size: 2.96vw;
@@ -88,7 +88,7 @@ a{
     left: 8.51%;
     top: 10%;
 }
-.my_ss{
+.skil{
     position: absolute;
     color: black;
     font-size: 2.96vw;
@@ -96,7 +96,7 @@ a{
     left: 30%;
     top: 48%;
 }
-.ss_block{
+.ss{
     position: absolute;
     color: black;
     font-size: 2.96vw;
@@ -105,7 +105,7 @@ a{
     top: 15%;
     width: 40.37%;
 }
-.my_footer{
+.pochta{
     position: absolute;
     color: black;
     font-size: 3.70vw;
