@@ -119,7 +119,8 @@ a{
     position: absolute;
 	left: 59.62%;
     width: 32.13%;
-    height: 50em;
+    height: 40em;
+    top: 3%;
 }
 .next{
 	position: absolute;
