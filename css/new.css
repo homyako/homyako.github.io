@@ -7,24 +7,24 @@ html,body{
 }
 .rectangle1 {
     max-width:100%;
-    height: 50em;
+    height: 50vw;
     background: #FF9DD2;
 }
 .rectangle2 {
     width: 100%;
-    height: 50em;
+    height: 50vw;
     background: #FF78C1;
 }
 .rectangle4 {
     width: 100%;
-    height: 50em;
+    height: 50vw;
     background: #FF1895;
 }
 .rectangle5 {
     position: absolute;
     width: 49%;
     min-width: 17%;
-    height: 19em;  
+    height: 19vw;  
     left: 8.51%;
     top: 10%;
     border-radius: 90px;
@@ -34,7 +34,7 @@ html,body{
     position: absolute;
     width: 49%;
     min-width: 17%;
-    height: 19em;  
+    height: 19vw;  
     left: 8.51%;
     top: 55%;
     border-radius: 90px;
