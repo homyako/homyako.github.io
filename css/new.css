@@ -1,90 +1,70 @@
 html,body{
     margin: 0;
-    min-width: 350px;
+    min-width: 150px;
     width: auto;
 }
 .frame1{
     max-width: 100%;
-    min-width: 350px;
     background: #FF9DD2;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    min-height: 400px;
+    min-height: auto;
 }
 .frame2 {
     max-width: 100%;
-    min-width: 350px;
     background: #FF78C1;
     display:flex;
     flex-wrap: wrap;
-    min-height: 400px;
+    min-height: auto;
     justify-content: space-evenly
 }
 .frame3 {
     max-width: 100%;
-    min-width: 350px;
     background: #FF1895;
     display:flex;
     flex-wrap: wrap;
-    min-height: 400px;
+    min-height: auto;
     justify-content: center;
     align-items: center;
+    word-break: break-all;
 }
 .bloc_text{
     display: grid;
-    grid-template-rows: 70px 220px 70px 220px;
+    grid-template-rows: auto auto auto auto;
+    word-break: break-all;
 }
-.hards{
+.hards,.skil{
     color: black;
     font-size: 34px;
     font-family: 'Inter', sans-serif;
     align-items: center;
     display: flex;
     justify-content: flex-end;
+    word-break: break-all;
 }
-.skil{
-    color: black;
-    font-size: 34px;
-    font-family: 'Inter', sans-serif;
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-}
-.hardsk{
+.hardsk,.ss{
     color: black;
     font-size: 28px;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-wrap: wrap;
+    display: inline-grid;
 }
-.ss{
-    color: black;
-    font-size: 28px;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-}
-.frame4 {
-    width: 350px;
-    height: auto;  
-    border-radius: 90px;
+.frame4,.frame5 {
+    width:fit-content+40%;
+    height: fit-content;  
+    border-radius: 50px;
     background: linear-gradient(180deg, #EE29FF 0%, rgba(111, 255, 246, 0.00) 100%);
-}
-.frame5 {
-    width: 350px;
-    height: auto;
-    border-radius: 90px;
-    background: linear-gradient(180deg, #EE29FF 0%, rgba(111, 255, 246, 0.00) 100%);
+    word-break: break-all;
 }
 .mypic{
-    min-width: 350px;
+    min-width: auto;
     min-height: 350px;
     display: grid;
 }
 #kryg{
-    width: 300px;
-    margin: 8% 8% 20% 8%;
+    width: 100%;
 }
 .my_name{
     color: black;
@@ -93,6 +73,7 @@ html,body{
     overflow: hidden;
     display: inline-block;
     text-align: center;
+    word-break: break-all;
 }
 .colledg{
     color: black;
@@ -102,12 +83,14 @@ html,body{
     display: inline-block;
     text-align: center;
     padding: 0% 5%;
+    word-break: break-all;
 }
 .name{
     display: inline-grid;
-    min-width: 350px;
+    min-width: 150px;
     align-content: center;
     justify-items: center;
+    word-break: break-all;
 }
 a{
     color: black;
@@ -128,40 +111,34 @@ a{
     flex-wrap: wrap;
     align-content: center;
 }
+#gr1,#gr2,#gr3{
+    width: 100%;
+}
 .slider_container{
-    display: grid;
-    grid-template-columns: 50px 244px 50px;
+    display: flex;
     align-items: center;
     justify-items: center;
 }
-.next{
+.next,.prev{
 	background-color: rgba(0, 0, 0, 0);
-	border: 1;
-	color: white;
+	border: 0;
+	color: black;
 	text-align: center;
 	font-size: 40px;
 	border-radius: 100%;
-}
-.prev{
-	background-color: rgba(0, 0, 0, 0);
-	border: 1;
-	color: white;
-	text-align: center;
-	font-size: 40px;
-	border-radius: 100%;
-    grid-row-start: 1;
 }
 #id_clock{
-    width: 200px;
     background-color: #2F4F4F;
     color: #00FF7F;
     border:4px outset #FFA500;
     padding:10px 20px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    word-break: break-all;
 }
 .inf{
     display: grid;
     align-content: center;
     justify-items: center;
+    word-break: break-all;
 }
