@@ -45,18 +45,20 @@ html,body{
 }
 .hardsk,.ss{
     color: black;
-    font-size: 28px;
+    font-size: clamp(20px, 28px, 28px);
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-wrap: wrap;
     display: inline-grid;
+    word-break: break-all;
 }
 .frame4,.frame5 {
-    width:fit-content+40%;
+    max-width: 380px;
     height: fit-content;  
     border-radius: 50px;
     background: linear-gradient(180deg, #EE29FF 0%, rgba(111, 255, 246, 0.00) 100%);
     word-break: break-all;
+
 }
 .mypic{
     min-width: auto;
@@ -87,7 +89,7 @@ html,body{
 }
 .name{
     display: inline-grid;
-    min-width: 150px;
+    min-width: 50px;
     align-content: center;
     justify-items: center;
     word-break: break-all;
